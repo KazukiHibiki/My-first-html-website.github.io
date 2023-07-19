@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+
+
+<html>
+<head></head>
+
+    <title>My first website | Page 1</title>
+
+</head>
+<body style="background-color: darkgreen;">
+    <br>
+    <h1>Click "Page 2" to go to Page 2.</h1>
+    <a href="http://127.0.0.1:5500/page2.html" target=_self title="Takes you to page 2.">
+        <h1 style="color: #28f005;">Page 2</h1>
+    </a>
+    <hr>
+
+    <h2 style="color: blue;">Welcome to page 1!</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <button onclick="doSomething()" style="background-color: darkgray;color: darkcyan;border-radius:5px;"><h4>Click me and watch the text below me change!</h4></button>
+        
+        <p id="test">Hello!</p>
+
+        <script>
+            function doSomething(){
+                document.getElementById("test").innerHTML = "Goodbye."
+            }
+        </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table bgcolor="black" width="700">
+        <tr bgcolor="darkgrey">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>Open 24/7</td>
+            <td>Open 24/7</td>
+            <td>Open 24/7</td>
+            <td>Open 24/7</td>
+            <td>Open 24/7</td>
+            <td>Open 24/7</td>
+            <td>Open 24/7</td>
+        </tr>
+    </table>
+
+    <a href="https://www.google.com/search?q=definition+of+welcome&oq=definition+of+welcome&aqs=chrome..69i57j0i20i263i512j0i22i30l3j0i15i22i30l5.2511j1j7&sourceid=chrome&ie=UTF-8" target=_blank>
+    <img src="/images/welcome.png" height="360" width="720" alt="This is a welcome picture." title="this is very welcoming...">
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p style="color: aquamarine;">this is <b>bold</b> text</p>
+    <br>
+    <br>
+    <p style="color: black;">this is <i>italics</i> text</p>
+    <br>
+    <br>
+    <p style="color: red;">this is <big>big</big> text</p>
+    <br>
+    <br>
+    <p style="color: orange;">this is <small>small</small> text</p>
+    <br>
+    <h3 style="color: blue;">The cube..</h3>
+    <br>
+    <br>
+    <img src="/images/the cube.png" height="100" width="200" alt="this is the cube." title="the cube..">
+
+    <form>
+        <div>
+            <label for="fname">first name</label>
+            <input type="text" id="fname" name="fname" placeholder="baked" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">last name</label>
+            <input type="text" id="lname" name="lname" placeholder="beans" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="123abc@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">phone #</label>
+            <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">birthdate</label>
+            <input type="date" id="bdate" name="bdate" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="quantity">quantity</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" value="1">
+        </div>
+
+        <br>
+
+        <div>
+            <label style="color: blue;" for="Gender">Gender:</label>
+
+            <label style="color: goldenrod;" for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="Gender" value="Mr.">
+
+            <label style="color: red;" for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="Gender" value="Mrs.">
+
+            <label style="color: yellow;" for="Walmart Bag">Walmart Bag</label>
+            <input type="radio" id="Walmart Bag" name="Gender" value="Walmart Bag">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="payment">payment:</label>
+            <select id="payment" name="payment">
+                <option>Debit</option>
+                <option>Credit</option>
+                <option>GiftCard</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="good">good website</label>
+            <input type="checkbox" id="good website" name="good website">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bad">bad website</label>
+            <input type="checkbox" id="bad website" name="bad website">
+        </div>
+        
+        <br>
+        
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+
+
+    </form>
+
+</body>
+</html>
